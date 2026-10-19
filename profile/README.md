@@ -43,7 +43,7 @@
 
 | Repository | What it is |
 | --- | --- |
-| [ftc-14158-2026-27](https://github.com/Wyandotte-Robotics/ftc-14158-2026-27) | FTC 14158 robot code for the 2026–27 season, built on the official FTC SDK |
+| [ftc-14158-biobuzz](https://github.com/Wyandotte-Robotics/ftc-14158-biobuzz) | FTC 14158 robot code for the 2026–27 BIOBUZZ season, built on the official FTC SDK |
 | [frc-8124-2027](https://github.com/Wyandotte-Robotics/frc-8124-2027) | FRC 8124 robot code for the 2027 season (starts at kickoff in January) |
 | [.github](https://github.com/Wyandotte-Robotics/.github) | This page, plus the contributing guide and templates every repo shares |
 
