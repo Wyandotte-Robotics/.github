@@ -1,0 +1,35 @@
+name: Task or feature
+description: Something new to build, add or improve
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What should we build?
+      placeholder: A button that lines the robot up with the scoring target automatically.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it help?
+      description: How does it help us score, drive, or save time?
+  - type: textarea
+    id: done
+    attributes:
+      label: How will we know it's done?
+      placeholder: |
+        - Pressing A turns the robot to face the target within 2 seconds
+        - Works from anywhere on our side of the field
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Drivetrain
+        - Autonomous
+        - Driver controls
+        - Mechanism (arm, intake, lift, shooter…)
+        - Vision and sensors
+        - Tools and setup
+        - Other

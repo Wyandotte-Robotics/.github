@@ -1,0 +1,48 @@
+name: Bug report
+description: Something on the robot or in the code isn't working right
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Don't include passwords, student last names or photos of students.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did the robot or code do?
+      placeholder: The arm keeps rising after I let go of the button.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+      placeholder: The arm should stop when I let go.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How do we make it happen again?
+      placeholder: |
+        1. Run the "Main TeleOp" OpMode
+        2. Hold the right bumper
+        3. Let go
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - Practice
+        - Competition
+        - Simulation
+        - Building or deploying the code
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      description: Paste any errors from the Driver Station, Driver Hub, console or build output.
+      render: text
